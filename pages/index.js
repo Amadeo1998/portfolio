@@ -83,7 +83,7 @@ const App = () => (
           </div>
           </div>
           <div className='section' style={{zIndex: -1, position: "fixed"}}>
-            <Image src="/images/minor/group.jpg" layout='fill' objectFit="cover" alt='group picture'/>
+            <Image src="/images/minor/group.jpg" layout='fill' objectFit="cover" alt='group picture' className='darkened-image'/>
           </div>
           <div className="ml-10 relative grid grid-rows-3 h-100vh">
             <div className='grid grid-cols-4 gap-4 mt-10'>
@@ -92,15 +92,23 @@ const App = () => (
               <Image className='rounded-lg' width={400} height={250} src='/images/minor/kruger.jpg' alt='test'/>
               <Image className='rounded-lg' width={400} height={250} src='/images/minor/waterpretpark.jpg' alt='test'/>
           </div>
-          <div className='text-white w-full text-6xl'>
+          <div className='text-image w-full text-6xl mt-10 text-white grid grid-cols-1 content-center'>
+            <div>
             <TypewriterComponent
+              
               options={{
                   strings: ["THE MINOR WAS A GREAT PERIOD, I VISIT 5 BEAUTIFULL COUNTRIES, CAME INTO CONTACT WITH NEW CULTURES, OTHER WAYS OF THINKING, BUT ABOVE ALL I GOT TO KNOW NEW PEOPLE."],
                   autoStart: true,
-                  loop: true
+                  loop: true,
+                  
+                  
+                  
                   
               }}>
             </TypewriterComponent>
+
+            </div>
+            
           </div>
           <div className='grid grid-cols-4 gap-4 mt-14 flex justify-between'>
             <Image className='rounded-lg' width={400} height={100} src='/images/minor/boat.jpg' alt='test'/>

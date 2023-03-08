@@ -10,3 +10,11 @@
 .fp-warning, .fp-watermark a {
   display: none !important;
 }
+
+.darkened-image {
+  filter: brightness(50%);
+}
+
+.text-image{
+  font-family: fantasy;
+}
