@@ -55,7 +55,7 @@ const App = () => (
 Furthermore, this internship offered me an enrichment of a new culture. Thus, I experienced new traditions and a different way of life.</p>
             </div>
 
-            <div className='grid grid-rows-1 grid-flow-col justify-items-center mb-10'>
+            <div className='grid grid-rows-1 grid-flow-col justify-items-center mt-10'>
               
               <Image className='rounded-lg' width={400} height={600} src='/images/ayinet/ayinet.jpg' alt='test'/>
               
