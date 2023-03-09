@@ -55,7 +55,7 @@ const App = () => (
 Furthermore, this internship offered me an enrichment of a new culture. Thus, I experienced new traditions and a different way of life.</p>
             </div>
 
-            <div className='grid grid-rows-1 grid-flow-col justify-items-center mt-10'>
+            <div className='grid grid-rows-1 grid-flow-col justify-items-center mb-10'>
               
               <Image className='rounded-lg' width={400} height={600} src='/images/ayinet/ayinet.jpg' alt='test'/>
               
@@ -68,7 +68,7 @@ Furthermore, this internship offered me an enrichment of a new culture. Thus, I 
             <Image src="/images/minor/group.jpg" layout='fill' objectFit="cover" alt='group picture' className='darkened-image'/>
           </div>
           <div className="ml-10 grid grid-rows-3">
-            <div className='grid grid-cols-4 gap-4 mb-10'>
+            <div className='grid grid-cols-4 gap-4 mt-10'>
               <Image className='rounded-lg ' width={400} height={100} src='/images/minor/atonium.jpg' alt='test'/>
               <Image className='rounded-lg' width={400} height={250} src='/images/minor/koninklijkPaleis.jpg' alt='test'/>
               <Image className='rounded-lg' width={400} height={250} src='/images/minor/kruger.jpg' alt='test'/>
