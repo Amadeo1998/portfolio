@@ -23,7 +23,7 @@ const App = () => (
           <div className="section bg-gray-900 h-100vh flex justify-center">
             <div className='self-center'>
               <div className='grid grid-cols-2'>
-                <div className='text-white w-full text-8xl ml-20'><TypewriterComponent
+                <div className='text-white w-full text-8xl ml-20 text-image'><TypewriterComponent
             options={{
                 strings: ["Don’t tell me how educated you are, tell me how much you have travelled."],
                 autoStart: true,
