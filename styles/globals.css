@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.section{
+.section {
   height: 100vh !important;
-  
 }
 
-.fp-warning, .fp-watermark a {
+.fp-warning,
+.fp-watermark a {
   display: none !important;
 }
 
@@ -15,14 +15,10 @@
   filter: brightness(50%);
 }
 
-.text-image{
+.text-image {
   font-family: fantasy;
 }
 
-img{
+img {
   height: 100%;
 }
-
-
-
-
